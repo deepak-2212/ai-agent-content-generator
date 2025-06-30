@@ -1,23 +1,11 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.env
-*.env.*
-*.sqlite3
-
-# Virtual Environment
+# Ignore virtual environments
 venv/
+__pycache__/
 
-# OS files
-.DS_Store
+# Ignore output files
+output/
+*.pdf
+*.pptx
 
-# IDE files
-.vscode/
-.idea/
-
-# Output files
-output.pdf
-output.pptx
-*.zip
+# Ignore local env files
+.env

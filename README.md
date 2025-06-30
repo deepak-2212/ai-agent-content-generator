@@ -1,11 +1,21 @@
-# Content Generator AI Agent
+# 🧠 AI Agent Content Generator
 
-Generates blogs, reports, PPTX, PDF files from a prompt using FastAPI + OpenAI.
+An AI microservice that generates:
+- 📝 Blogs & Reports (PDF)
+- 📊 Presentations with scraped images (PPTX)
 
-## Run
+## 🔗 Tech stack
+- FastAPI + Uvicorn
+- OpenAI API
+- ReportLab (PDF)
+- python-pptx + BeautifulSoup (PPTX)
+- .env for API key
+
+## 🚀 How to run
 
 ```bash
 python -m venv venv
-.\venv\Scripts\Activate
+# Activate venv
 pip install -r requirements.txt
+
 uvicorn main:app --reload

@@ -3,6 +3,7 @@ uvicorn
 openai
 python-dotenv
 python-multipart
-jinja2
+reportlab
 python-pptx
-reportlab  # for PDF generation
+requests
+beautifulsoup4
